@@ -68,6 +68,7 @@ section {
   height: 5rem;
   background: var(--desert-dark);
   top: 0;
+  z-index: 1;
 }
 
 #main_header > header {
@@ -165,7 +166,6 @@ header:has(#menu:not(:checked)) ~ nav {
   top: 0;
   bottom: 0;
   left: 1.2em;
-  z-index: -1;
 }
 
 #timetable_section > h2 {
@@ -192,7 +192,6 @@ header:has(#menu:not(:checked)) ~ nav {
   position: absolute;
   top: calc(50% - 0.25em);
   left: calc(50% - 0.25em);
-  z-index: -1;
 }
 
 .event__timeline::after,
@@ -202,7 +201,6 @@ header:has(#menu:not(:checked)) ~ nav {
   width: 0.1em;
   left: calc(50% + 0.2em);
   position: absolute;
-  z-index: -1;
 }
 
 .event__timeline::before {
