@@ -27,6 +27,7 @@ body {
   line-height: 1.5;
   color: var(--text-foreground);
   background: var(--desert-light);
+  padding-top: 5rem;
 }
 
 a {
@@ -69,6 +70,11 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 0.2em 0.5em;
+  position: fixed;
+  width: 100vw;
+  height: 5rem;
+  background: var(--desert-dark);
+  top: 0;
 }
 
 #logo {
