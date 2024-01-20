@@ -21,6 +21,8 @@ html {
   --standard-padding: 2em 2.5em;
   /* Transition */
   --transition: all 0.2s ease-in-out;
+  /* Width */
+  --width: calc(95vw - 4em);
 }
 
 /* Global styles */
@@ -96,7 +98,7 @@ section {
 #overview_section > article {
   margin: auto;
   padding: var(--standard-padding);
-  width: calc(95vw-4em);
+  width: var(--width);
   background: var(--text-background);
 }
 
@@ -118,13 +120,21 @@ section {
 }
 
 .event {
-  width: 95vw;
+  width: var(--width);
   margin: 1em auto;
 }
 
 .event__details {
   display: flex;
   justify-content: space-between;
+}
+
+.event__date {
+  white-space: nowrap;
+}
+
+.event_location {
+  text-align: right;
 }
 
 /* Signup form styles: mobile */
