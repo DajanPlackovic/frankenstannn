@@ -166,3 +166,15 @@ h3 {
 #signup_section button:hover {
   background: var(--oasis-dark);
 }
+
+/* Footer styles: mobile */
+#main_footer {
+  background: var(--desert-dark);
+  color: var(--text-background);
+}
+
+#main_footer ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0;
+}
