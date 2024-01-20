@@ -1,8 +1,8 @@
-# Love Running
+# Frankenstannn
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+Frankenstannn is a fictional fan club for Gautier Serre, also known as [Igorrr](https://igorrr.com/), a French black metal baroque breakcore trip hop musical artist.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+The website provides information on Igorrr and the fan club, allows visitors to review the events organised by the fan club, as well as to sign up for the fan club newsletter. It is desert themed to follow the style of Igorrr's website, as well as **Spirituality and Distortion**, his best album.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
@@ -108,6 +108,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content
 
+- The genre breakdown of Igorr's style in README taken from [Wikipedia article on Igorr.](https://en.wikipedia.org/wiki/Igorrr)
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
@@ -118,6 +119,10 @@ You can break the credits section up into Content and Media, depending on what y
 - The images used for the gallery page were taken from this other open source site
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+
+## Acknowledgements
+
+- jossewe26 for his P[ura Vida Spa project,](https://github.com/josswe26/pura-vida-spa) which helped me figure out what a good submission would look like, as well as how to structure the README.
 
 ## Other General Project Advice
 
