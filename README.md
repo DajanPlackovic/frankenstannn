@@ -122,7 +122,7 @@ Congratulations on completing your Readme, you have made another big stride in t
 
 ## Acknowledgements
 
-- jossewe26 for his P[ura Vida Spa project,](https://github.com/josswe26/pura-vida-spa) which helped me figure out what a good submission would look like, as well as how to structure the README.
+- jossewe26 for his [Pura Vida Spa project,](https://github.com/josswe26/pura-vida-spa) which helped me figure out what a good submission would look like, as well as how to structure the README.
 
 ## Other General Project Advice
 
