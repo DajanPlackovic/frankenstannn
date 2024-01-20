@@ -139,6 +139,7 @@ Congratulations on completing your Readme, you have made another big stride in t
 
 - [A Color Hunt palette](https://colorhunt.co/palette/ff9843ffdd9586a7fc3468c0) was used as a basis for the website color scheme. [colormind.io](http://colormind.io/) was then used to extend it, [hover.dev's A CSS Color Palette Generator That Works](https://www.hover.dev/css-color-palette-generator) was used to generate the text and background colors, and [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/) to ensure the text and background colors allow for readability.
 - The desert background for the SVG image used as a background for newsletter section was generated using [Haikei](https://app.haikei.app/). The two camel SVGs were taken from [SVG Silh](https://svgsilh.com/image/48445.html) and added onto the background using [Figma](https://www.figma.com/).
+- Diamond for timeline also taken from [SVG Silh](https://svgsilh.com/image/37027.html).
 
 ### Code
 
