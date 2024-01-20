@@ -121,6 +121,10 @@ You can break the credits section up into Content and Media, depending on what y
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 
+### Code
+
+- CSS reset template taken from [Eric A. Meyer's site.](https://meyerweb.com/eric/tools/css/reset/)
+
 ## Acknowledgements
 
 - jossewe26 for his [Pura Vida Spa project,](https://github.com/josswe26/pura-vida-spa) which helped me figure out what a good submission would look like, as well as how to structure the README.
