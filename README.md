@@ -79,7 +79,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - [Google Fonts](https://fonts.google.com/)
   - Imported [Lato](https://fonts.google.com/specimen/Lato), [Merriweather](https://fonts.google.com/specimen/Merriweather) and [UnifrakturCook](https://fonts.google.com/specimen/UnifrakturCook).
-- [Font Awesomee](ttps://fontawesome.com) used for social media icons in footer.
+- [Font Awesome](ttps://fontawesome.com) used for social media icons in footer.
 
 ## Testing
 
