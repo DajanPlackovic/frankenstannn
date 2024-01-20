@@ -241,6 +241,28 @@ header:has(#menu:not(:checked)) ~ nav {
   position: relative;
 }
 
+#signup_section .form__group {
+  position: relative;
+  margin: 1em auto;
+}
+
+#signup_section input {
+  border: none;
+  border-bottom: var(--text-foreground) 1px solid;
+  background: transparent;
+}
+
+#signup_section label {
+  position: absolute;
+  left: 0;
+  transition: var(--transition);
+}
+
+#signup_section input:focus ~ label {
+  transform: translate(20vw);
+  opacity: 0;
+}
+
 #signup_section button {
   position: absolute;
   bottom: 0;
