@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Merriweather:wght@300;400&family=UnifrakturCook:wght@700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 /* Color scheme variables */
 :root {
   --desert-dark: #ff9843;
@@ -8,13 +12,13 @@
   --oasis-light: #59897c;
   --oasis-dark: #50726a;
   --text-foreground: #342519;
-  --text-background: #f5efea;
+  --text-background: #f5efeadf;
 }
 
 /* Global styles */
 body {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-foreground);
@@ -34,6 +38,7 @@ a:hover {
 h2,
 h3 {
   font-family: 'Merriweather', serif;
+  font-weight: 300;
 }
 
 /* Main header styles: mobile */
@@ -56,4 +61,27 @@ h3 {
 
 #main_header > nav > ul {
   text-align: right;
+}
+
+/* Overview section styles: mobile */
+#overview_section > img {
+  display: none;
+}
+
+#overview_section {
+  background: url('../images/igorrr-alcatraz-2022_172.jpg') center center /
+    cover;
+  padding: 2em;
+}
+
+#overview_section > article {
+  margin: auto;
+  padding: 2em 2.5em;
+  width: calc(95vw-4em);
+  background: var(--text-background);
+}
+
+#overview_section h2,
+#overview_section p {
+  margin-bottom: 0.5em;
 }
