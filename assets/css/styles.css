@@ -112,7 +112,19 @@ section {
   padding: 0;
 }
 
+#timetable_section > h2::before {
+  content: '';
+  width: 0.1em;
+  background: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1.2em;
+  z-index: -1;
+}
+
 #timetable_section > h2 {
+  position: relative;
   text-align: center;
   padding: var(--standard-padding);
 }
@@ -120,7 +132,7 @@ section {
 #events {
   width: 100vw;
   display: grid;
-  grid-template: repeat(4, 1fr) / 1fr 1fr;
+  grid-template: repeat(4, 1fr) / 2em 1fr;
   gap: 0;
 }
 
@@ -142,8 +154,8 @@ section {
 .event__timeline::before {
   content: '';
   background: #000;
-  width: 4px;
-  left: calc(50% + 2px);
+  width: 0.1em;
+  left: calc(50% + 0.2em);
   position: absolute;
   z-index: -1;
 }
