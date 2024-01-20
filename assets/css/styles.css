@@ -113,3 +113,25 @@ h3 {
 #overview_section p {
   margin-bottom: 0.5em;
 }
+
+/* Timetable styles: mobile */
+#timetable_section > h2 {
+  text-align: center;
+}
+
+#events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.event {
+  width: 95vw;
+  margin: 1em auto;
+}
+
+.event__details {
+  display: flex;
+  justify-content: space-between;
+}
