@@ -61,14 +61,20 @@ section {
 /* Main header styles: mobile */
 #main_header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   padding: var(--standard-padding);
   position: fixed;
   width: 100vw;
   height: 5rem;
   background: var(--desert-dark);
   top: 0;
+}
+
+#main_header > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 #logo {
@@ -79,10 +85,49 @@ section {
 #main_header > nav {
   text-transform: lowercase;
   font-variant: small-caps;
+  margin-top: 2em;
+  z-index: 2;
+  background-color: var(--desert-dark);
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
 }
 
 #main_header > nav > ul {
+  display: flex;
   text-align: right;
+}
+
+#main_header > nav > ul > li {
+  margin-left: 1em;
+}
+
+/* Mobile menu */
+#menu {
+  display: none;
+}
+
+#menu:not(:checked) ~ label > .menu,
+#menu:checked ~ label > .close,
+header:has(#menu:checked) ~ nav {
+  display: flex;
+}
+
+#menu:checked ~ label > .menu,
+#menu:not(:checked) ~ label .close,
+header:has(#menu:not(:checked)) ~ nav {
+  display: none;
+}
+
+.menu,
+.close {
+  cursor: pointer;
+  /* taken from https://www.w3schools.com/howto/howto_css_disable_text_selection.asp */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 /* Overview section styles: mobile */
