@@ -135,3 +135,34 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+
+/* Signup form styles: mobile */
+#signup_section {
+  background: url('../images/desert-background.svg') bottom right / cover;
+  padding: 2em;
+}
+
+#signup_section > form {
+  background: var(--text-background);
+  padding: 2em 2.5em 3em;
+  position: relative;
+}
+
+#signup_section button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: none;
+  font-family: inherit;
+  text-transform: uppercase;
+  background: var(--desert-dark);
+  color: var(--text-background);
+  padding: 1em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#signup_section button:hover {
+  background: var(--oasis-dark);
+}
