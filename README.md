@@ -128,6 +128,7 @@ You can break the credits section up into Content and Media, depending on what y
 ### Media
 
 - The photo of Igorr in the first section of the home page is taken from [his website.](https://igorrr.com/)
+- Favicons downloaded from [icons8.com.](https://icons8.com/icons/set/frankenstein)
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
 
