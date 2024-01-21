@@ -135,7 +135,7 @@ header:has(#menu:not(:checked)) ~ nav {
 }
 
 #overview_section {
-  background: url('../images/igorrr-alcatraz-2022_172.jpg') center center /
+  background: url('../images/igorrr-alcatraz-2022_172.webp') center center /
     cover;
   background-attachment: fixed;
 }
