@@ -235,13 +235,17 @@ section {
 
 #signup_section .form__group {
   position: relative;
-  margin: 1em auto;
+  margin: 2em auto;
+  width: fit-content;
 }
 
 #signup_section input {
   border: none;
   border-bottom: var(--text-foreground) 1px solid;
   background: transparent;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
 }
 
 #signup_section label {
@@ -250,9 +254,9 @@ section {
   transition: var(--transition);
 }
 
-#signup_section input:focus ~ label {
-  transform: translate(20vw);
-  opacity: 0;
+#signup_section input:focus ~ label,
+#signup_section input:not(:placeholder-shown) ~ label {
+  transform: translateY(-1.5em);
 }
 
 #signup_section button {
