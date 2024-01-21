@@ -313,6 +313,40 @@ section {
   }
 }
 
+@media screen and (min-width: 768px) {
+  #timetable_section > h2 {
+    background: var(--text-background);
+    width: min(90vw, 900px);
+  }
+
+  #timetable_section > h2::before {
+    left: calc(50% + 0.2em);
+    z-index: -1;
+  }
+
+  #events {
+    grid-template: repeat(4, 1fr) / 1fr 2em 1fr;
+    width: min(90vw, 900px);
+    /* overflow: hidden; /* to test where the width is comming from */
+  }
+
+  .event {
+    width: auto;
+  }
+
+  .event__timeline {
+    grid-column: 2 / 3;
+  }
+
+  .event:nth-child(2) {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .event:nth-child(6) {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .menu,
   .close {
