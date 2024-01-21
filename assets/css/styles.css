@@ -145,6 +145,9 @@ section {
   padding: 0;
   width: var(--width);
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #timetable_section > h2::before {
@@ -154,13 +157,15 @@ section {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 1.2em;
+  left: 0.2em;
+  margin: auto;
 }
 
 #timetable_section > h2 {
   position: relative;
   text-align: center;
   padding: var(--standard-padding);
+  width: 100%;
 }
 
 #events {
