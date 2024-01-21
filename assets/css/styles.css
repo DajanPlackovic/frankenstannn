@@ -22,7 +22,7 @@ html {
   /* Transition */
   --transition: all 0.2s ease-in-out;
   /* Width */
-  --width: calc(95vw - 4em);
+  --width: clamp(200px, calc(95vw - 4em), 1000px);
 }
 
 /* Global styles */
@@ -103,30 +103,9 @@ section {
   align-items: center;
 }
 
-/* Mobile menu */
+/* Never display checkbox used for mobile menu logic */
 #menu {
   display: none;
-}
-
-#menu:not(:checked) ~ label > .menu,
-#menu:checked ~ label > .close,
-header:has(#menu:checked) ~ nav {
-  display: flex;
-}
-
-#menu:checked ~ label > .menu,
-#menu:not(:checked) ~ label .close,
-header:has(#menu:not(:checked)) ~ nav {
-  display: none;
-}
-
-.menu,
-.close {
-  cursor: pointer;
-  /* taken from https://www.w3schools.com/howto/howto_css_disable_text_selection.asp */
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
 }
 
 /* Overview section styles: mobile */
@@ -155,6 +134,8 @@ header:has(#menu:not(:checked)) ~ nav {
 /* Timetable styles: mobile */
 #timetable_section {
   padding: 0;
+  width: var(--width);
+  margin: auto;
 }
 
 #timetable_section > h2::before {
@@ -239,6 +220,8 @@ header:has(#menu:not(:checked)) ~ nav {
   padding: var(--standard-padding);
   padding-bottom: 3em;
   position: relative;
+  width: clamp(200px, calc(95vw - 4em), 500px);
+  margin: auto;
 }
 
 #signup_section .form__group {
@@ -293,4 +276,53 @@ header:has(#menu:not(:checked)) ~ nav {
   justify-content: space-around;
   padding: 1em 0;
   font-size: 1.5em;
+  width: var(--width);
+  margin: auto;
+}
+
+@media screen and (max-width: 991px) {
+  /* Mobile menu */
+  #menu:not(:checked) ~ label > .menu,
+  #menu:checked ~ label > .close,
+  header:has(#menu:checked) ~ nav {
+    display: flex;
+  }
+
+  #menu:checked ~ label > .menu,
+  #menu:not(:checked) ~ label .close,
+  header:has(#menu:not(:checked)) ~ nav {
+    display: none;
+  }
+
+  .menu,
+  .close {
+    cursor: pointer;
+    /* taken from https://www.w3schools.com/howto/howto_css_disable_text_selection.asp */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu,
+  .close {
+    display: none !important;
+  }
+
+  #main_header > nav {
+    top: 0;
+    right: 0;
+    left: auto;
+    width: fit-content;
+    align-items: center;
+    margin-top: 0;
+    height: 100%;
+  }
+
+  #main_header > nav > ul {
+    flex-direction: row;
+    gap: 1em;
+    padding: 0 1em;
+  }
 }
