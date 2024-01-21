@@ -34,6 +34,7 @@ body {
   color: var(--text-foreground);
   background: var(--desert-light);
   padding-top: 5rem;
+  min-width: 320px;
 }
 
 a {
@@ -61,7 +62,7 @@ section {
 /* Main header styles: mobile */
 #main_header {
   position: fixed;
-  width: max(200px, 100vw);
+  width: max(320px, 100vw);
   height: 5rem;
   background: var(--desert-dark);
   top: 0;
