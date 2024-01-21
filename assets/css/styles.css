@@ -95,7 +95,7 @@ section {
 #main_header nav {
   text-transform: lowercase;
   font-variant: small-caps;
-  font-size: xx-large;
+  font-size: x-large;
   margin-top: 1em;
   z-index: 2;
   background-color: var(--desert-dark);
