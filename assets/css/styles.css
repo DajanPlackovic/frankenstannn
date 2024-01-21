@@ -47,7 +47,7 @@ a:hover {
   color: var(--oasis-dark);
 }
 
-#main_header > nav,
+#main_header nav,
 h2,
 h3 {
   font-family: 'Merriweather', serif;
@@ -60,18 +60,26 @@ section {
 
 /* Main header styles: mobile */
 #main_header {
-  display: flex;
-  flex-direction: column;
-  padding: var(--standard-padding);
   position: fixed;
-  width: 100vw;
+  width: max(200px, 100vw);
   height: 5rem;
   background: var(--desert-dark);
   top: 0;
   z-index: 1;
+  display: flex;
+  justify-content: center;
 }
 
-#main_header > header {
+#main_header > div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: var(--standard-padding);
+  width: clamp(200px, 100vw, 1400px);
+}
+
+#main_header header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,7 +91,7 @@ section {
   font-size: 2em;
 }
 
-#main_header > nav {
+#main_header nav {
   text-transform: lowercase;
   font-variant: small-caps;
   font-size: xx-large;
@@ -97,7 +105,7 @@ section {
   justify-content: center;
 }
 
-#main_header > nav > ul {
+#main_header nav > ul {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -310,7 +318,7 @@ section {
     display: none !important;
   }
 
-  #main_header > nav {
+  #main_header nav {
     top: 0;
     right: 0;
     left: auto;
@@ -320,7 +328,7 @@ section {
     height: 100%;
   }
 
-  #main_header > nav > ul {
+  #main_header nav > ul {
     flex-direction: row;
     gap: 1em;
     padding: 0 1em;
