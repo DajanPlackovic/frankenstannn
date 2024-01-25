@@ -87,6 +87,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing
 
+While manually testing the embedded Spotify player, noticed the volume is annoyingly loud. Unfortunately, neither the iFrame embed nor the Spotify API currently offer an option to control embed volume, [as mentioned in this post from two years ago.](https://community.spotify.com/t5/Desktop-Windows/Add-volume-controller-on-Spotify-player-that-s-embeded-on-my/td-p/5040070)
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
