@@ -23,7 +23,7 @@ html {
   /* Transition */
   --transition: all 0.2s ease-in-out;
   /* Width */
-  --width: clamp(200px, calc(95vw - 4em), 1000px);
+  --width: clamp(200px, calc(95vw - 4em), 500px);
 }
 
 /* Global styles */
@@ -63,6 +63,7 @@ h3 {
 
 section {
   padding: 2em;
+  position: relative;
 }
 
 /* Main header styles: mobile */
@@ -139,6 +140,11 @@ section {
   padding: var(--standard-padding);
   width: var(--width);
   background: var(--text-background);
+}
+
+#overview_section h2 {
+  color: var(--text-background);
+  text-align: center;
 }
 
 #overview_section h2,
@@ -329,6 +335,19 @@ section {
 }
 
 @media screen and (min-width: 768px) {
+  #overview_section > h2 {
+    position: sticky;
+    left: 0;
+    top: 100px;
+    width: fit-content;
+    font-size: 4.8vw;
+  }
+
+  #overview_section > article {
+    margin-top: -5vw;
+    transform: translateX(15vw);
+  }
+
   #timetable_section > h2 {
     background: var(--text-background);
     width: min(90vw, 900px);
