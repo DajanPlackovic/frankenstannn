@@ -81,6 +81,10 @@ In addition, you may also use this section to discuss plans for additional featu
   - Imported [Lato](https://fonts.google.com/specimen/Lato), [Merriweather](https://fonts.google.com/specimen/Merriweather) and [UnifrakturCook](https://fonts.google.com/specimen/UnifrakturCook).
 - [Font Awesome](https://fontawesome.com) used for social media icons in footer.
 
+### External websites
+
+- Embedded Spotify player. Volume cannot currently be controlled, [see issue.](https://community.spotify.com/t5/Desktop-Windows/Add-volume-controller-on-Spotify-player-that-s-embeded-on-my/td-p/5040070)
+
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
