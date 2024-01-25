@@ -80,6 +80,7 @@ In addition, you may also use this section to discuss plans for additional featu
 - [Google Fonts](https://fonts.google.com/)
   - Imported [Lato](https://fonts.google.com/specimen/Lato), [Merriweather](https://fonts.google.com/specimen/Merriweather) and [UnifrakturCook](https://fonts.google.com/specimen/UnifrakturCook).
 - [Font Awesome](https://fontawesome.com) used for social media icons in footer.
+- [Material Symbols](https://fonts.google.com/icons) used for menu icons in header on mobile.
 
 ### External websites
 
