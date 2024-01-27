@@ -155,7 +155,7 @@ section {
 /* Timetable styles: mobile */
 #timetable_section {
   padding: 0;
-  width: var(--width);
+  width: max(200px, calc(95vw - 4em));
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -163,6 +163,7 @@ section {
 }
 
 #timetable_section > h2::before {
+  /* no longer works, not aligned with rest of timeline, fix later */
   content: '';
   width: 0.1em;
   background: #000;
@@ -349,13 +350,15 @@ section {
   }
 
   #timetable_section > h2 {
-    background: var(--text-background);
-    width: min(90vw, 900px);
+    font-size: 4.8vw;
+    position: absolute;
+    padding: 0;
+    right: 0;
+    width: fit-content;
   }
 
   #timetable_section > h2::before {
-    left: calc(50% + 0.2em);
-    z-index: -1;
+    display: none;
   }
 
   #events {
