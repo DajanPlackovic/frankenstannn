@@ -69,6 +69,7 @@ section {
 /* Main header styles: mobile */
 #main_header {
   position: fixed;
+  overflow: hidden;
   width: max(320px, 100vw);
   height: 5rem;
   background: var(--desert-dark);
@@ -388,6 +389,10 @@ section {
 }
 
 @media screen and (min-width: 992px) {
+  body {
+    font-size: 22px;
+  }
+
   .menu,
   .close {
     display: none !important;
