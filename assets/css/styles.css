@@ -300,6 +300,12 @@ section {
   background: var(--oasis-dark);
 }
 
+.youtube {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+
 /* Footer styles: mobile */
 #main_footer {
   background: var(--desert-dark);
