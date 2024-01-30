@@ -370,7 +370,7 @@ section {
   }
 
   .event {
-    width: auto;
+    width: 100%;
   }
 
   .event__timeline {
