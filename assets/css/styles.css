@@ -87,7 +87,7 @@ section {
   width: clamp(200px, 100vw, 1400px);
 }
 
-#main_header header {
+#main_header__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -331,13 +331,13 @@ section {
   /* Mobile menu */
   #menu:not(:checked) ~ label > .menu,
   #menu:checked ~ label > .close,
-  header:has(#menu:checked) ~ nav {
+  #main_header__top:has(#menu:checked) ~ nav {
     display: flex;
   }
 
   #menu:checked ~ label > .menu,
   #menu:not(:checked) ~ label .close,
-  header:has(#menu:not(:checked)) ~ nav {
+  #main_header__top:has(#menu:not(:checked)) ~ nav {
     display: none;
   }
 
