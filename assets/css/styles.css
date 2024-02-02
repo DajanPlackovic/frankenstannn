@@ -376,7 +376,6 @@ section {
   #events {
     grid-template: repeat(4, 1fr) / 1fr 2em 1fr;
     width: min(90vw, 900px);
-    /* overflow: hidden; /* to test where the width is comming from */
   }
 
   .event {
