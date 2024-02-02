@@ -194,7 +194,8 @@ section {
 }
 
 .event iframe {
-  width: 100%;
+  width: max(100%, 230px);
+  height: 80px;
 }
 
 .event__timeline {
