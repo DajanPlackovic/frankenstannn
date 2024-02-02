@@ -133,6 +133,11 @@ section {
   background: url('../images/igorrr-alcatraz-2022-172.webp') center center /
     cover;
   background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #overview_section > article {
@@ -349,6 +354,10 @@ section {
     font-size: 4.8vw;
   }
 
+  #overview_section {
+    flex-direction: row;
+  }
+
   #overview_section > h2 {
     position: sticky;
     left: 0;
@@ -357,8 +366,6 @@ section {
   }
 
   #overview_section > article {
-    margin-top: -5vw;
-    transform: translateX(15vw);
   }
 
   #timetable_section > h2 {
