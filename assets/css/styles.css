@@ -312,7 +312,7 @@ section {
 
 .youtube {
   width: min(100%, 1200px);
-  height: min(40%, 500px);
+  height: min(40vw, 500px);
   display: block;
   margin: 2rem auto;
 }
