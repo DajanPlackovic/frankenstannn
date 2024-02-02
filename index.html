@@ -1,294 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="The official site of Frankenstannn, the Dublin-based Igorrr fan club" />
-    <title>Frankenstannn</title>
-    <!-- Reset browser styles to get consistent appearance in different browsers -->
-    <link rel="stylesheet" href="assets/css/css-reset.css" />
-    <!-- General styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <!-- Basic favicons -->
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/favicon/icons8-frankenstein-color-16.png"
-      sizes="16x16" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/favicon/icons8-frankenstein-color-32.png"
-      sizes="32x32" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  </head>
-  <body>
-    <!-- Main header stuck to top of page -->
-    <header id="main_header">
-      <div>
-        <!-- Top section of header in mobile version, leftmost section on tablet and desktop -->
-        <div id="main_header__top">
-          <a href="#"><h1 id="logo">Frankenstannn</h1></a>
-          <input type="checkbox" name="menu" id="menu" />
-          <label for="menu">
-            <span class="material-symbols-outlined menu"> menu </span>
-            <span class="material-symbols-outlined close"> close </span>
-          </label>
-        </div>
-        <!-- Bottom section of header in mobile version, rightmost section on tablet and desktop -->
-        <nav>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#timetable_section">Events</a></li>
-            <li><a href="#signup_section">Newsletter</a></li>
-          </ul>
-        </nav>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The official site of Frankenstannn, the Dublin-based Igorrr fan club">
+  <title>Frankenstannn</title>
+  <!-- Reset browser styles to get consistent appearance in different browsers -->
+  <link rel="stylesheet" href="assets/css/css-reset.css">
+  <!-- General styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Basic favicons -->
+  <link rel="icon" type="image/png" href="assets/favicon/icons8-frankenstein-color-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="assets/favicon/icons8-frankenstein-color-32.png" sizes="32x32">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+
+<body>
+  <!-- Main header stuck to top of page -->
+  <header id="main_header">
+    <div>
+      <!-- Top section of header in mobile version, leftmost section on tablet and desktop -->
+      <div id="main_header__top">
+        <a href="#">
+          <h1 id="logo">Frankenstannn</h1>
+        </a>
+        <input type="checkbox" name="menu" id="menu">
+        <label for="menu">
+          <span class="material-symbols-outlined menu"> menu </span>
+          <span class="material-symbols-outlined close"> close </span>
+        </label>
       </div>
-    </header>
-    <main>
-      <!-- Overview section, with site description -->
-      <section id="overview_section">
-        <h2>We &#10084; Igorrr</h2>
-        <div id="overview__text">
-          <p>
-            For centuries, a great injustice has been done to Igorrr, his
-            contribution to Adam's creation minimized and neglected, all while
-            Frankenstannn's name still lives on the lips of all. Igorrr was not
-            even mentioned in the most famous reports of Frankenstannn's life,
-            that written by Mary Shelley, a grave injustice indeed.
-          </p>
-          <p>
-            Today, we right that wrong. We, Frankenstannn, meet monthly in the
-            pubs of Dublin to celebrate the genius that is Igorrr. Join us in
-            venerating the hunchbacked desert artist if you feel compelled to
-            redress the wrong done to his name, or else if you just like having
-            a beer while listening to a fascinating blend of electronica and
-            metal. That works too.
-          </p>
+      <!-- Bottom section of header in mobile version, rightmost section on tablet and desktop -->
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#timetable_section">Events</a></li>
+          <li><a href="#signup_section">Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- Overview section, with site description -->
+    <section id="overview_section">
+      <h2>We &#10084; Igorrr</h2>
+      <div id="overview__text">
+        <p>
+          For centuries, a great injustice has been done to Igorrr, his
+          contribution to Adam's creation minimized and neglected, all while
+          Frankenstannn's name still lives on the lips of all. Igorrr was not
+          even mentioned in the most famous reports of Frankenstannn's life,
+          that written by Mary Shelley, a grave injustice indeed.
+        </p>
+        <p>
+          Today, we right that wrong. We, Frankenstannn, meet monthly in the
+          pubs of Dublin to celebrate the genius that is Igorrr. Join us in
+          venerating the hunchbacked desert artist if you feel compelled to
+          redress the wrong done to his name, or else if you just like having
+          a beer while listening to a fascinating blend of electronica and
+          metal. That works too.
+        </p>
+      </div>
+    </section>
+    <!-- Timetable section, with upcoming events -->
+    <section id="timetable_section">
+      <h2 class="heading__hidden">Upcoming Events</h2>
+      <div id="events">
+        <div class="event__timeline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1280.000000pt" height="640.000000pt"
+            viewBox="0 0 1280.000000 640.000000" preserveAspectRatio="xMidYMid meet">
+            <metadata>
+              Created by potrace 1.15, written by Peter Selinger 2001-2017
+            </metadata>
+            <g transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+              <path d="M3188 4809 c-1748 -874 -3178 -1591 -3178 -1594 0 -3 1445 -727 3210
+-1610 l3210 -1605 3180 1590 c1749 875 3180 1592 3180 1595 0 4 -6416 3216
+-6422 3214 -2 0 -1433 -715 -3180 -1590z" />
+            </g>
+          </svg>
         </div>
-      </section>
-      <!-- Timetable section, with upcoming events -->
-      <section id="timetable_section">
-        <h2 class="heading__hidden">Upcoming Events</h2>
-        <div id="events">
-          <div class="event__timeline">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="1280.000000pt"
-              height="640.000000pt"
-              viewBox="0 0 1280.000000 640.000000"
-              preserveAspectRatio="xMidYMid meet">
-              <metadata>
-                Created by potrace 1.15, written by Peter Selinger 2001-2017
-              </metadata>
-              <g
-                transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)"
-                fill="#000000"
-                stroke="none">
-                <path
-                  d="M3188 4809 c-1748 -874 -3178 -1591 -3178 -1594 0 -3 1445 -727 3210
--1610 l3210 -1605 3180 1590 c1749 875 3180 1592 3180 1595 0 4 -6416 3216
--6422 3214 -2 0 -1433 -715 -3180 -1590z" />
-              </g>
-            </svg>
+        <div class="event">
+          <h3 class="event__title">Calamitous Cosine</h3>
+          <div class="event__details">
+            <p class="event__date">9 February 2024</p>
+            <p class="event_location">Fibber Magees</p>
           </div>
-          <div class="event">
-            <h3 class="event__title">Calamitous Cosine</h3>
-            <div class="event__details">
-              <p class="event__date">9 February 2024</p>
-              <p class="event_location">Fibber Magees</p>
-            </div>
-            <p class="event_description">
-              Drinks and Savage Sinusoid at the pub.
-            </p>
-            <iframe
-              style="border-radius: 12px"
-              src="https://open.spotify.com/embed/track/1k0FBEI7mBttj5AyOJJmxM?utm_source=generator&theme=0"
-              title="Apopathodiaphulatophobie - song and lyrics by Igorrr taken from Spotify"
-              allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"></iframe>
-          </div>
-          <div class="event__timeline">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="1280.000000pt"
-              height="640.000000pt"
-              viewBox="0 0 1280.000000 640.000000"
-              preserveAspectRatio="xMidYMid meet">
-              <metadata>
-                Created by potrace 1.15, written by Peter Selinger 2001-2017
-              </metadata>
-              <g
-                transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)"
-                fill="#000000"
-                stroke="none">
-                <path
-                  d="M3188 4809 c-1748 -874 -3178 -1591 -3178 -1594 0 -3 1445 -727 3210
--1610 l3210 -1605 3180 1590 c1749 875 3180 1592 3180 1595 0 4 -6416 3216
--6422 3214 -2 0 -1433 -715 -3180 -1590z" />
-              </g>
-            </svg>
-          </div>
-          <div class="event">
-            <h3 class="event__title">Valhallelujah</h3>
-            <div class="event__details">
-              <p class="event__date">15 March 2024</p>
-              <p class="event_location">The Brazen Head</p>
-            </div>
-            <p class="event_description">
-              Hallelujah in the evening, Nanowar of Steel into the night.
-            </p>
-            <iframe
-              style="border-radius: 12px"
-              src="https://open.spotify.com/embed/track/3CmUxunNSUoUara7BTtMMU?utm_source=generator&theme=0"
-              title="Toothpaste - song and lyrics by Igorrr taken from Spotify"
-              allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"></iframe>
-          </div>
-          <div class="event__timeline">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="1280.000000pt"
-              height="640.000000pt"
-              viewBox="0 0 1280.000000 640.000000"
-              preserveAspectRatio="xMidYMid meet">
-              <metadata>
-                Created by potrace 1.15, written by Peter Selinger 2001-2017
-              </metadata>
-              <g
-                transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)"
-                fill="#000000"
-                stroke="none">
-                <path
-                  d="M3188 4809 c-1748 -874 -3178 -1591 -3178 -1594 0 -3 1445 -727 3210
--1610 l3210 -1605 3180 1590 c1749 875 3180 1592 3180 1595 0 4 -6416 3216
--6422 3214 -2 0 -1433 -715 -3180 -1590z" />
-              </g>
-            </svg>
-          </div>
-          <div class="event">
-            <h3 class="event__title">The Anniversary</h3>
-            <div class="event__details">
-              <p class="event__date">3 April 2024</p>
-              <p class="event_location">Fakebar McNotarealplace</p>
-            </div>
-            <p class="event_description">
-              Schnittwoch for the anniversary of the Frankenstein movie coming
-              out.
-            </p>
-            <iframe
-              style="border-radius: 12px"
-              src="https://open.spotify.com/embed/track/6QN0mXlZOwfQoFs5yu55Pg?utm_source=generator&theme=0"
-              title="Camel Dancefloor - song and lyrics by Igorrr taken from Spotify"
-              allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"></iframe>
-          </div>
-          <div class="event__timeline">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="1280.000000pt"
-              height="640.000000pt"
-              viewBox="0 0 1280.000000 640.000000"
-              preserveAspectRatio="xMidYMid meet">
-              <metadata>
-                Created by potrace 1.15, written by Peter Selinger 2001-2017
-              </metadata>
-              <g
-                transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)"
-                fill="#000000"
-                stroke="none">
-                <path
-                  d="M3188 4809 c-1748 -874 -3178 -1591 -3178 -1594 0 -3 1445 -727 3210
--1610 l3210 -1605 3180 1590 c1749 875 3180 1592 3180 1595 0 4 -6416 3216
--6422 3214 -2 0 -1433 -715 -3180 -1590z" />
-              </g>
-            </svg>
-          </div>
-          <div class="event">
-            <h3 class="event__title">Nosthrill</h3>
-            <div class="event__details">
-              <p class="event__date">3 May 2024</p>
-              <p class="event_location">Dalkey</p>
-            </div>
-            <p class="event_description">Nostril, beers and kayaking.</p>
-            <iframe
-              style="border-radius: 12px"
-              src="https://open.spotify.com/embed/track/5Wvsg0WKBqKGgEMp0tBl2q?utm_source=generator&theme=0"
-              title="Double Monk - song and lyrics by Igorrr taken from Spotify"
-              allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"></iframe>
-          </div>
-        </div>
-      </section>
-      <!-- Signup section for the newsletter, containing the form -->
-      <section id="signup_section">
-        <h2>Newsletter</h2>
-        <iframe
-          class="youtube"
-          width="1903"
-          height="750"
-          src="https://www.youtube.com/embed/oftU1Zdfbq4"
-          title="IGORRR - Camel Dancefloor [LIVE at Pol&#39;And&#39;Rock Festival 2021]"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <form action="https://formdump.codeinstitute.net" method="post">
-          <p>
-            Want to keep up with performances like the one above and general
-            events realting to Igorrr in the area? <br />
-            Sign up for our newsletter and we'll let you know whenever the
-            hunchback is up to something.
+          <p class="event_description">
+            Drinks and Savage Sinusoid at the pub.
           </p>
-          <div class="form__group">
-            <input type="text" id="name" name="name" placeholder="" />
-            <label for="name">Name</label>
+          <iframe style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/1k0FBEI7mBttj5AyOJJmxM?utm_source=generator&theme=0"
+            title="Apopathodiaphulatophobie - song and lyrics by Igorrr taken from Spotify" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="event__timeline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1280.000000pt" height="640.000000pt"
+            viewBox="0 0 1280.000000 640.000000" preserveAspectRatio="xMidYMid meet">
+            <metadata>
+              Created by potrace 1.15, written by Peter Selinger 2001-2017
+            </metadata>
+            <g transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+              <path d="M3188 4809 c-1748 -874 -3178 -1591 -3178 -1594 0 -3 1445 -727 3210
+-1610 l3210 -1605 3180 1590 c1749 875 3180 1592 3180 1595 0 4 -6416 3216
+-6422 3214 -2 0 -1433 -715 -3180 -1590z" />
+            </g>
+          </svg>
+        </div>
+        <div class="event">
+          <h3 class="event__title">Valhallelujah</h3>
+          <div class="event__details">
+            <p class="event__date">15 March 2024</p>
+            <p class="event_location">The Brazen Head</p>
           </div>
-          <div class="form__group">
-            <input type="email" id="email" name="email" placeholder="" />
-            <label for="email">Email</label>
+          <p class="event_description">
+            Hallelujah in the evening, Nanowar of Steel into the night.
+          </p>
+          <iframe style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/3CmUxunNSUoUara7BTtMMU?utm_source=generator&theme=0"
+            title="Toothpaste - song and lyrics by Igorrr taken from Spotify" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="event__timeline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1280.000000pt" height="640.000000pt"
+            viewBox="0 0 1280.000000 640.000000" preserveAspectRatio="xMidYMid meet">
+            <metadata>
+              Created by potrace 1.15, written by Peter Selinger 2001-2017
+            </metadata>
+            <g transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+              <path d="M3188 4809 c-1748 -874 -3178 -1591 -3178 -1594 0 -3 1445 -727 3210
+-1610 l3210 -1605 3180 1590 c1749 875 3180 1592 3180 1595 0 4 -6416 3216
+-6422 3214 -2 0 -1433 -715 -3180 -1590z" />
+            </g>
+          </svg>
+        </div>
+        <div class="event">
+          <h3 class="event__title">The Anniversary</h3>
+          <div class="event__details">
+            <p class="event__date">3 April 2024</p>
+            <p class="event_location">Fakebar McNotarealplace</p>
           </div>
-          <button type="submit">Sign Up</button>
-        </form>
-      </section>
-    </main>
-    <!-- Footer with social media links -->
-    <footer id="main_footer">
-      <ul>
-        <li>
-          <a
-            href="https://www.reddit.com/"
-            target="_blank"
-            aria-label="Open our subreddit in a new tab"
-            ><i class="fa-brands fa-reddit"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            aria-label="Open our Twitter in a new tab"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com"
-            target="_blank"
-            aria-label="Open our YouTube channel in a new tab"
-            ><i class="fa-brands fa-youtube"></i
-          ></a>
-        </li>
-      </ul>
-    </footer>
-    <script
-      src="https://kit.fontawesome.com/07c8b05fd5.js"
-      crossorigin="anonymous"></script>
-  </body>
+          <p class="event_description">
+            Schnittwoch for the anniversary of the Frankenstein movie coming
+            out.
+          </p>
+          <iframe style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/6QN0mXlZOwfQoFs5yu55Pg?utm_source=generator&theme=0"
+            title="Camel Dancefloor - song and lyrics by Igorrr taken from Spotify" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="event__timeline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1280.000000pt" height="640.000000pt"
+            viewBox="0 0 1280.000000 640.000000" preserveAspectRatio="xMidYMid meet">
+            <metadata>
+              Created by potrace 1.15, written by Peter Selinger 2001-2017
+            </metadata>
+            <g transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+              <path d="M3188 4809 c-1748 -874 -3178 -1591 -3178 -1594 0 -3 1445 -727 3210
+-1610 l3210 -1605 3180 1590 c1749 875 3180 1592 3180 1595 0 4 -6416 3216
+-6422 3214 -2 0 -1433 -715 -3180 -1590z" />
+            </g>
+          </svg>
+        </div>
+        <div class="event">
+          <h3 class="event__title">Nosthrill</h3>
+          <div class="event__details">
+            <p class="event__date">3 May 2024</p>
+            <p class="event_location">Dalkey</p>
+          </div>
+          <p class="event_description">Nostril, beers and kayaking.</p>
+          <iframe style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/5Wvsg0WKBqKGgEMp0tBl2q?utm_source=generator&theme=0"
+            title="Double Monk - song and lyrics by Igorrr taken from Spotify" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- Signup section for the newsletter, containing the form -->
+    <section id="signup_section">
+      <h2>Newsletter</h2>
+      <iframe class="youtube" width="1903" height="750" src="https://www.youtube.com/embed/oftU1Zdfbq4"
+        title="IGORRR - Camel Dancefloor [LIVE at Pol&#39;And&#39;Rock Festival 2021]"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <form action="https://formdump.codeinstitute.net" method="post">
+        <p>
+          Want to keep up with performances like the one above and general
+          events realting to Igorrr in the area? <br>
+          Sign up for our newsletter and we'll let you know whenever the
+          hunchback is up to something.
+        </p>
+        <div class="form__group">
+          <input type="text" id="name" name="name" placeholder="">
+          <label for="name">Name</label>
+        </div>
+        <div class="form__group">
+          <input type="email" id="email" name="email" placeholder="">
+          <label for="email">Email</label>
+        </div>
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+  </main>
+  <!-- Footer with social media links -->
+  <footer id="main_footer">
+    <ul>
+      <li>
+        <a href="https://www.reddit.com/" target="_blank" aria-label="Open our subreddit in a new tab"><i
+            class="fa-brands fa-reddit"></i></a>
+      </li>
+      <li>
+        <a href="https://twitter.com" target="_blank" aria-label="Open our Twitter in a new tab"><i
+            class="fa-brands fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com" target="_blank" aria-label="Open our YouTube channel in a new tab"><i
+            class="fa-brands fa-youtube"></i></a>
+      </li>
+    </ul>
+  </footer>
+  <script src="https://kit.fontawesome.com/07c8b05fd5.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
