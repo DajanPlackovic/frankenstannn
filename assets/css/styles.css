@@ -208,7 +208,7 @@ section {
   height: 0.5em;
   width: auto;
   position: absolute;
-  top: calc(50% - 0.25em);
+  top: 3em;
   left: calc(50% - 0.25em);
 }
 
@@ -223,11 +223,11 @@ section {
 
 .event__timeline::before {
   top: 0;
-  bottom: calc(50% + 0.5em);
+  bottom: calc(100% - 2.5em);
 }
 
 .event__timeline::after {
-  top: calc(50% + 0.5em);
+  top: 4em;
   bottom: 0;
 }
 
