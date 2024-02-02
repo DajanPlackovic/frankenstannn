@@ -140,7 +140,7 @@ section {
   justify-content: center;
 }
 
-#overview_section > article {
+#overview__text {
   margin: auto;
   padding: var(--standard-padding);
   width: var(--width);
