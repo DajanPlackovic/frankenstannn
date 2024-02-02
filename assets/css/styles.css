@@ -294,7 +294,7 @@ section {
   font-size: inherit;
   text-transform: uppercase;
   background: var(--desert-dark);
-  color: var(--text-background);
+  color: var(--text-foreground);
   padding: 1em;
   cursor: pointer;
   transition: var(--transition);
@@ -302,6 +302,7 @@ section {
 
 #signup_section button:hover {
   background: var(--oasis-dark);
+  color: var(--text-background);
 }
 
 .youtube {
