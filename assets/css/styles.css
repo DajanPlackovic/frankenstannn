@@ -69,7 +69,6 @@ section {
 /* Main header styles: mobile */
 #main_header {
   position: fixed;
-  overflow: hidden;
   width: max(320px, 100vw);
   height: 5rem;
   background: var(--desert-dark);
@@ -403,6 +402,10 @@ section {
   .menu,
   .close {
     display: none !important;
+  }
+
+  #main_header {
+    overflow: hidden;
   }
 
   #main_header nav {
