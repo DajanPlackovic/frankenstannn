@@ -140,7 +140,7 @@ section {
   justify-content: center;
 }
 
-#overview__text {
+#overview_section > article {
   margin: auto;
   padding: var(--standard-padding);
   width: var(--width);
@@ -191,6 +191,10 @@ section {
   grid-template: repeat(4, 1fr) / 2em 1fr;
   gap: 0;
   width: 85vw;
+}
+
+.event iframe {
+  width: 100%;
 }
 
 .event__timeline {
