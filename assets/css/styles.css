@@ -50,6 +50,11 @@ a:hover {
   color: var(--oasis-dark);
 }
 
+a:active,
+a:focus {
+  color: inherit;
+}
+
 #main_header nav,
 h2 {
   font-family: 'Merriweather Sans', sans-serif;
